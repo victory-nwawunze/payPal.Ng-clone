@@ -15,6 +15,7 @@
     height: 15%;
     color: #2c2e2f;
     font-weight: 70;
+    box-shadow: 4px solid #CACDCD;
 }
 .logo{
     border: none;
@@ -52,4 +53,51 @@
      border-radius: 50px;
      cursor: pointer;
      border: 2px solid #2C89C6;
+}
+.hero-container{
+    background-image: url('../img/payPal-hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70%;
+}
+.text-button {
+    text-align: center;
+    margin-top: 10%;
+}
+.text-button > h4{
+    color: white;
+    font-size: 2.85714286rem;
+    line-height: 1.25em;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.button-3{
+      border: none;
+      /* margin-top: 40px; */
+      background-color: #2C89C6;
+      color: #FFFFFF;
+     padding: 12px 110px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      border-radius: 50px;
+      cursor: pointer;
+      border: 2px solid #2C89C6;
+}
+.hero-container p{
+    display: block;
+    padding-top: 10px;
+    clear: left;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-top: 40px;
+    color: white;
+}
+.hero-container span{
+    font-weight: bolder;
+    font-size: 1.07142857142857rem;
 }
